@@ -1,0 +1,64 @@
+body{
+    background-color: #121214;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.kenzieflix {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 67px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+.container {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.perfis {
+    display: flex;
+    justify-content: space-between;
+
+}
+.imagensperfil {
+    width: 160px;
+    height: 160px;
+    flex-direction: row;
+    text-align: center;
+
+}
+.imagensperfil img{
+    border-radius: 8px;
+    border: solid 2px transparent;
+}
+.imagensperfil p{
+    color: #9C9C9C;
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+form button{
+    width: 206px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #121214;
+    color: white;
+    border: solid white 2px;
+}
+form button:hover{
+    background-color: white;
+    color:black
+}
+.imagensperfil img:hover{
+    border: solid white 2px;
+}
